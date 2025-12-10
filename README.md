@@ -28,10 +28,15 @@ target_sentence — Translated text
 🔹 Preprocessing Steps
 
 ✔️ Lowercasing all text
+
 ✔️ Removing special characters & extra spaces
+
 ✔️ Tokenizing sentences
+
 ✔️ Creating vocabulary for both languages
+
 ✔️ Applying padding for uniform sequence length
+
 
 🔹 Train-Test Split
 
@@ -78,9 +83,13 @@ MNB performed best among classical ML models, but Seq2Seq + Attention delivers f
 🎯 Applications
 
 ✔️ Education — Supports multilingual learning
+
 ✔️ Travel — Helps with communication in foreign regions
+
 ✔️ Customer Support — Multilingual automated replies
+
 ✔️ Social Media — Instant message/post translation
+
 ✔️ E-Learning — Provides multi-language content access
 
 🏁 Conclusion
@@ -88,8 +97,11 @@ MNB performed best among classical ML models, but Seq2Seq + Attention delivers f
 This project successfully demonstrates a powerful Neural Machine Translation (NMT) system using a Seq2Seq Encoder–Decoder architecture with Attention. The model:
 
 ✔ Understands complex sentence structures
+
 ✔ Captures long-range dependencies
+
 ✔ Generates fluent & natural translations
+
 ✔ Outperforms traditional ML models
 
 This opens possibilities in education, tourism, digital communication, and automated support systems.
@@ -97,7 +109,9 @@ This opens possibilities in education, tourism, digital communication, and autom
 📚 References
 
 • IMDb Dataset – Language Detection using NLP and ML
+
 • Methods and Evaluation – arXiv Preprint (2020)
+
 • YouTube — Seq2Seq Tutorial Series by Murat Karakaya
 
 📸 Screenshots
