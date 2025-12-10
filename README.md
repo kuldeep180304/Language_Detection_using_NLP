@@ -73,6 +73,9 @@ The model consists of three key components:
 
 
 
+<img width="523" height="277" alt="Screenshot 2025-10-26 204950" src="https://github.com/user-attachments/assets/066cac54-7247-4b8e-aefb-b0fee9521669" />
+
+
 
 👉 Observation:
 
@@ -116,6 +119,16 @@ This opens possibilities in education, tourism, digital communication, and autom
 📸 Screenshots
 
 📌 Dataset Sample (22,000 rows × 2 columns)
+
+
 <img width="796" height="507" alt="Screenshot 2025-10-26 203402" src="https://github.com/user-attachments/assets/04a5b062-52a9-4040-aa95-e7782f2f57bd" />
+
+
+OUTPUT:
+
+<img width="1472" height="384" alt="Screenshot 2025-10-26 203453" src="https://github.com/user-attachments/assets/139dd1a4-05e8-4a42-9edc-7b412006f722" />
+
+
+
 
 
