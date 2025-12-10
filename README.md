@@ -6,6 +6,7 @@ In today’s globalized world, breaking language barriers has become essential f
 Unlike traditional rule-based or dictionary-based translation systems, this model understands the context, structure, and semantics of source sentences, providing far more natural and accurate translations.
 
 📂 Dataset Description
+
 🔹 Dataset Type
 
 • Parallel Corpus Dataset containing pairs of sentences
