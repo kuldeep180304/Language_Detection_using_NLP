@@ -6,19 +6,17 @@ In today’s globalized world, breaking language barriers has become essential f
 Unlike traditional rule-based or dictionary-based translation systems, this model understands the context, structure, and semantics of source sentences, providing far more natural and accurate translations.
 
 📂 Dataset Description
-1. Dataset Type
+🔹 Dataset Type
 
-Parallel Corpus Dataset containing pairs of sentences.
+• Parallel Corpus Dataset containing pairs of sentences
+• Each English sentence has a corresponding translation in the target language (Hindi / Kannada / Telugu / etc.)
 
-Each English sentence has a corresponding translation in the target language (Hindi / Kannada / Telugu / etc.).
+🔹 Languages Used
 
-2. Languages Used
+• Source Language: English
+• Target Language: User-selected Indian regional language
 
-Source: English
-
-Target: User-selected Indian regional language
-
-3. Data Format
+🔹 Data Format
 
 Two columns:
 
@@ -26,7 +24,7 @@ source_sentence — English text
 
 target_sentence — Translated text
 
-4. Preprocessing Steps
+🔹 Preprocessing Steps
 
 ✔️ Lowercasing all text
 ✔️ Removing special characters & extra spaces
@@ -34,11 +32,10 @@ target_sentence — Translated text
 ✔️ Creating vocabulary for both languages
 ✔️ Applying padding for uniform sequence length
 
-5. Train-Test Split
+🔹 Train-Test Split
 
-80% Training
-
-20% Testing
+• 80% — Training
+• 20% — Testing
 
 🧠 Methodology
 🟦 Seq2Seq Neural Architecture with Attention
@@ -47,63 +44,62 @@ The model consists of three key components:
 
 🔸 1. Encoder
 
-Converts input words into dense embeddings
-
-Uses LSTM layers to learn contextual meaning
+• Converts input words into dense embeddings
+• Uses LSTM layers to learn contextual meaning
 
 🔸 2. Attention Layer
 
-Helps the model focus on the most relevant input words
-
-Greatly improves translation of long sentences
+• Helps the model focus on the most relevant input words
+• Greatly improves translation of long sentences
 
 🔸 3. Decoder
 
-Generates translated output word by word
+• Generates translated output word by word
+• Uses encoder context + previously generated tokens
 
-Uses the encoder context + previously generated tokens
+📊 Comparative Analysis (Traditional vs Deep Learning Models)
 
-📊 Comparative Analysis (Existing Methods vs Deep Learning)
-Model	Accuracy
-Multinomial Naive Bayes (MNB)	0.981
-Random Forest	0.927
-K-Nearest Neighbors (KNN)	0.524
+|  **Model**                        | **Accuracy** |
+| --------------------------------- | ------------ |
+| **Multinomial Naive Bayes (MNB)** | **0.981**    |
+| **Random Forest**                 | **0.927**    |
+| **K-Nearest Neighbors (KNN)**     | **0.524**    |
+
+
+
 
 👉 Observation:
-MNB performed best among classical ML models, but Deep Learning Seq2Seq with Attention achieved far more fluent and context-aware translations that traditional models cannot generate.
+
+MNB performed best among classical ML models, but Seq2Seq + Attention delivers far more fluent, context-aware, and human-like translations, which traditional models cannot generate.
 
 ⏱ Total computation time: ~3 minutes
 
 🎯 Applications
 
-✔ Education: Helps in multilingual learning
-✔ Travel Applications: Easy communication across countries
-✔ Customer Support: Automated multilingual chatbots
-✔ Social Media: Instant message or post translation
-✔ E-Learning: Access courses in different languages
+✔️ Education — Supports multilingual learning
+✔️ Travel — Helps with communication in foreign regions
+✔️ Customer Support — Multilingual automated replies
+✔️ Social Media — Instant message/post translation
+✔️ E-Learning — Provides multi-language content access
 
 🏁 Conclusion
 
-This project successfully demonstrates a working Neural Machine Translation (NMT) system using an Encoder–Decoder LSTM architecture with Attention. The model effectively:
+This project successfully demonstrates a powerful Neural Machine Translation (NMT) system using a Seq2Seq Encoder–Decoder architecture with Attention. The model:
 
-Understands complex sentence structures
+✔ Understands complex sentence structures
+✔ Captures long-range dependencies
+✔ Generates fluent & natural translations
+✔ Outperforms traditional ML models
 
-Captures long-range dependencies
-
-Generates fluent translations
-
-Outperforms traditional ML methods in translation tasks
-
-The system opens possibilities for real-world applications in education, tourism, digital communication, and customer service.
+This opens possibilities in education, tourism, digital communication, and automated support systems.
 
 📚 References
 
-IMDb Dataset – Language Detection using NLP and ML
-
-Methods and Evaluation. arXiv preprint (2020)
-
-YouTube: Seq2Seq Learning Tutorial Series by Murat Karakaya
+• IMDb Dataset – Language Detection using NLP and ML
+• Methods and Evaluation – arXiv Preprint (2020)
+• YouTube — Seq2Seq Tutorial Series by Murat Karakaya
 
 📸 Screenshots
 
 📌 Dataset Sample (22,000 rows × 2 columns)
+
