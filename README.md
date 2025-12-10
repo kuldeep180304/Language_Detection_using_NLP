@@ -112,9 +112,10 @@ This opens possibilities in education, tourism, digital communication, and autom
 
 • Methods and Evaluation – arXiv Preprint (2020)
 
-• YouTube — Seq2Seq Tutorial Series by Murat Karakaya
 
 📸 Screenshots
 
 📌 Dataset Sample (22,000 rows × 2 columns)
+<img width="796" height="507" alt="Screenshot 2025-10-26 203402" src="https://github.com/user-attachments/assets/04a5b062-52a9-4040-aa95-e7782f2f57bd" />
+
 
